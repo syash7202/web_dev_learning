@@ -1,0 +1,27 @@
+.red {
+    background-color: red;
+    color: white;
+}
+
+.head {
+    background-color: palegreen;
+    color: brown;
+}
+
+.one {
+    background-color: #859485;
+    color: black;
+    text-align: center;
+}
+
+.ques4 {
+    text-align: center;
+}
+
+.bgc4 {
+    background-color: darksalmon;
+}
+
+.color4 {
+    color: darkslategrey;
+}
