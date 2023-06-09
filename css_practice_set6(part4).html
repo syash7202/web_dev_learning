@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pratice set - 6.4</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .head-container {
+        display: flex;
+        flex-direction: row;
+        background-color: teal;
+        justify-content: end;
+      }
+
+      nav li {
+        display: inline-block;
+        padding: 15px;
+      }
+
+      .image {
+        display: flex;
+        width: 100vw;
+        height: 60vh;
+        justify-content: center;
+      }
+
+      .testimonials {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .box1 {
+        border: 2px solid black;
+        background-color: hotpink;
+        width: 25vw;
+        height: 25vh;
+      }
+
+      .box2 {
+        border: 2px solid black;
+        background-color: salmon;
+        width: 25vw;
+        height: 25vh;
+      }
+
+      .box3 {
+        border: 2px solid black;
+        background-color: rgb(68, 194, 37);
+        width: 25vw;
+        height: 25vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="head-container">
+        <nav>
+          <li class="icon">ICON</li>
+          <li>HOME</li>
+          <li>HOME</li>
+          <li>HOME</li>
+        </nav>
+      </div>
+    </header>
+
+    <div class="image">
+      <img src="./Vector-Sky-Background.jpg" alt="" />
+    </div>
+
+    <div class="testimonials">
+      <div class="box1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+        illo rerum, doloremque obcaecati nesciunt ipsum molestiae est tempore
+        dolorem ex tenetur ipsam ducimus facere asperiores.
+      </div>
+
+      <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+        voluptates delectus impedit? Vitae beatae similique iusto, explicabo
+        natus hic nulla magni doloribus libero, rem placeat.
+      </div>
+
+      <div class="box3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro
+        qui, officia nemo illum ipsa quasi! Labore quibusdam temporibus
+        asperiores officiis ipsam, eaque fugit quo.
+      </div>
+    </div>
+  </body>
+</html>

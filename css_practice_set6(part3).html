@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pratice set - 6.3</title>
+  </head>
+
+  <!-- // using the flex property -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      background-color: #000;
+      color: white;
+      border: 2px solid grey;
+    }
+
+    nav ul li {
+      padding: 2px;
+      margin: 10px;
+      list-style: none;
+      display: inline-block;
+    }
+
+    .container-box {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .left {
+      border: 2px solid black;
+      background-color: hotpink;
+      width: 40vw;
+      height: 50vh;
+    }
+
+    .right {
+      border: 2px solid black;
+      background-color: salmon;
+      width: 40vw;
+      height: 50vh;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>HOME</li>
+          <li>HOME</li>
+          <li>HOME</li>
+          <li>HOME</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container-box">
+      <div class="left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+        necessitatibus, nisi ratione atque iure similique adipisci aliquam dolor
+        fugiat culpa beatae ducimus deserunt distinctio cumque quod est at nihil
+        exercitationem, tenetur expedita nostrum aspernatur eum! Magnam
+        consequatur libero sapiente repudiandae, eos mollitia sed sit
+        perspiciatis aliquam quod. In praesentium possimus fugiat fugit
+        deserunt, dignissimos totam?
+      </div>
+
+      <div class="right">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure porro
+        doloremque pariatur saepe nostrum nisi quasi odio, amet, fugit quisquam
+        minus! Praesentium, rerum tempora ipsa hic quasi perferendis quis iure
+        cum consectetur voluptate architecto odio ratione porro error delectus
+        nostrum minima reprehenderit laboriosam ea accusantium id sapiente quos
+        quaerat culpa! Quisquam incidunt sit accusantium cum.
+      </div>
+    </div>
+  </body>
+</html>
