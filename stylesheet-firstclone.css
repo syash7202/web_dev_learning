@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    list-style-type: none;
+    text-align: right;
+    padding: 25px;
+    
+}
+
+li{
+    display: inline;
+    margin: 2px;
+}
+
+.google{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.search-bar{
+    border: 2.5px solid grey ;
+    border-radius: 25px;
+    position: relative;
+    padding: 12px 10px;
+    margin-top: 10px;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+
+.google-search{
+    display: inline-block;
+    margin: 2px 5px 0px 0px;
+    padding: 20px 2px 2px 2px;
+}
+.lucky{
+    display: inline;
+}
