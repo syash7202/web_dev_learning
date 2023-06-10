@@ -11,16 +11,29 @@
         margin: 0;
       }
 
-      .head-container {
+      .flex {
         display: flex;
         flex-direction: row;
-        background-color: teal;
-        justify-content: end;
       }
 
-      nav li {
-        display: inline-block;
-        padding: 15px;
+      header {
+        border: 2px solid red;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+      }
+      .icon li {
+        display: inline-flex;
+        list-style: none;
+        margin: 2px 2px;
+        border: 3px solid black;
+      }
+      .home ul {
+        border: 3px solid black;
+        display: inline-flex;
+        list-style: none;
+        gap: 20px;
+        margin-right: 2px;
       }
 
       .image {
@@ -61,12 +74,16 @@
   </head>
   <body>
     <header>
-      <div class="head-container">
+      <div class="head-container flex">
         <nav>
-          <li class="icon">ICON</li>
-          <li>HOME</li>
-          <li>HOME</li>
-          <li>HOME</li>
+          <div class="icon flex"><li>icons</li></div>
+          <div class="home">
+            <ul class="flex">
+              <li>HOME</li>
+              <li>HOME</li>
+              <li>HOME</li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
