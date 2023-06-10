@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pratice set - 7.2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+      .container {
+        display: grid;
+        background-color: grey;
+        grid-gap: 9px 9px;
+      }
+      .header {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 0px 50vw;
+        justify-content: center;
+      }
+
+      .header .icon {
+        border: 2px solid red;
+        border-radius: 100%;
+      }
+
+      .header .navbar {
+        border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+      }
+
+      .header .navbar ul {
+        display: inline-flex;
+      }
+      .header .navbar ul li {
+        border: 2px solid red;
+        margin: 15px;
+        list-style: none;
+      }
+
+      .image {
+        border: 2px solid red;
+        height: 50vh;
+      }
+      .testimonials {
+        display: flex;
+        flex-wrap: wrap column;
+        border: 2px solid red;
+        grid-gap: 9px 9px;
+        height: 35vh;
+        align-content: space-around;
+        box-sizing: border-box;
+      }
+
+      .testimonials-1 {
+        border: 2px solid red;
+        background-color: rgb(68, 194, 37);
+        height: fit-content;
+      }
+      .testimonials-2 {
+        border: 2px solid red;
+        background-color: salmon;
+        height: fit-content;
+      }
+      .testimonials-3 {
+        border: 2px solid red;
+        background-color: hotpink;
+        height: fit-content;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="icon">icon</div>
+        <div class="navbar">
+          <ul>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+          </ul>
+        </div>
+      </div>
+      <div class="image"><img src="./google.png" alt="" /></div>
+      <div class="testimonials">
+        <div class="testimonials-1">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta,
+          ipsam! Illo doloremque sint architecto aut culpa provident iste ut,
+          aperiam obcaecati id eum consectetur repudiandae nemo neque! Dolorum
+          perspiciatis tempore iusto rem architecto. Corporis ad exercitationem
+          neque veritatis aliquid? Modi sed cum rem qui cupiditate atque hic
+          alias laudantium aliquam?
+        </div>
+        <div class="testimonials-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maxime
+          minima, nemo eos unde doloremque. Esse aliquid beatae explicabo,
+          perspiciatis debitis at officia ut adipisci nihil, modi quae sint,
+          voluptatem rem porro reprehenderit! Quis sint et corrupti natus neque
+          molestiae eos obcaecati. Quod quibusdam ullam iste pariatur harum
+          culpa tenetur?
+        </div>
+        <div class="testimonials-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam illo
+          culpa esse nihil consequatur, repellendus nobis quos minus eligendi.
+          Officiis inventore totam laborum nulla dolor et sint voluptatum
+          necessitatibus sapiente magni ipsum, neque assumenda ab quae at quam
+          debitis cumque accusamus earum quod distinctio blanditiis! Quae
+          recusandae unde excepturi molestias.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
