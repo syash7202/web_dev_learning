@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- /* NOt able to perform flex wrap on testimonial container */ -->
     <title>CSS Pratice set - 7.2</title>
     <style>
       * {
@@ -21,7 +23,7 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 0px 50vw;
-        justify-content: center;
+        justify-content: space-between;
       }
 
       .header .icon {
@@ -56,7 +58,7 @@
         grid-gap: 9px 9px;
         height: 35vh;
         align-content: space-around;
-        box-sizing: border-box;
+        <!-- box-sizing: border-box; -->
       }
 
       .testimonials-1 {
@@ -74,6 +76,31 @@
         background-color: hotpink;
         height: fit-content;
         box-sizing: border-box;
+      }
+
+      @media screen and (max-width: 800px) {
+        .container {
+          background-color: black;
+          color: white;
+        }
+        .image img{
+            width: 600px;
+            height: 30vh;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .container {
+          background-color: cyan;
+        }
+        .image img{
+            width: 300px;
+            height: 30vh;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .container {
+          background-color: teal;
+        }
       }
     </style>
   </head>
